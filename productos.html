@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, no-scalable">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="@charlie_38king">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="keywords" content="fotografia, cámara, foto, polaroid, arte, bolsos">
+    <meta name="description" content="Página Oficial de Pereira Photo">
+
+    <title>Pereira Photo</title>
+
+    <link rel="icon" href="./images/favicon.png">        <!--favicon-->
+    <link type="text/css" rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection"/> <!--materialize css-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />    <!--API Google para iconos-->
+    <link type="text/css" rel="stylesheet" href="./fontawesome/css/all.min.css" />   <!--fontawesome css-->
+    <link rel="stylesheet" href="./css/main.css">    <!--css propio-->
+    <link rel="stylesheet" href="./css/style_scnd_pages.css">    <!--css particular-->
+
+    <!--Montserrat Typo Google Fonts Online-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,200&display=swap" rel="stylesheet"> 
+    
+    <!--Playfair Display Typo Google Fonts Online-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,400&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    
+    <header>
+        <nav class="nav-wrapper menu-top">
+            <ul class="left logo-position"> 
+                <li><a href="index.html" class="brand-logo"><img src="./images/logo-horizontal-retoque.png" class="logo"></a></li>
+            </ul>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars fa-2x a-inv" style="margin-top: 18px;"></i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down"> 
+                <li><a href="index.html" class="texto-menu">INICIO</a></li>
+                <li><a href="portafolio.html" class="texto-menu">PORTAFOLIO</a></li>
+                <li><a href="#!" class="active-link texto-menu">PRODUCTOS</a></li>
+                <li><a href="contacto.html" class="texto-menu">CONTACTO</a></li>
+                <li><a href="misnfts.html" class="texto-menu">NFTs</a></li>
+            </ul>
+        </nav>
+        <ul class="sidenav menu-top" id="mobile-demo">
+            <li><a href="index.html" class="texto-menu"><i class="fa fa-home fa-sm"></i>&nbsp&nbsp&nbspINICIO</a></li>
+            <li><a href="portafolio.html" class="texto-menu"><i class="fa fa-briefcase fa-sm"></i>&nbsp&nbsp&nbspPORTAFOLIO</a></li>
+            <li><a href="#!" class="active-link texto-menu"><i class="fa fa-box-open fa-sm"></i>&nbsp&nbsp&nbspPRODUCTOS</a></li>
+            <li><a href="contacto.html" class="texto-menu"><i class="fa fa-user fa-sm"></i>&nbsp&nbsp&nbspCONTACTO</a></li>
+            <li><a href="misnfts.html" class="texto-menu"><i class="fa fa-photo-video fa-sm"></i>&nbsp&nbsp&nbspNFTs</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="fixed-action-btn click-to-toggle">
+            <a href="#" class="btn-floating center btn-large button">
+                <i class="fa fa-share-alt fa-2x tooltip-boton"></i>
+            </a>
+            <ul>
+                <li><a class="btn-floating button tooltipped mini-botones" data-position="left" data-tooltip="@_pereira_photo" href="https://instagram.com/" target="_blank">
+                    <i class="centrado fab fa-instagram fa-2x aver"></i>
+                </a></li>
+
+                <li><a class="btn-floating button tooltipped mini-botones" data-position="left" data-tooltip="@_pereira_photo_art" href="https://https://instagram.com/" target="_blank">
+                    <i class="centrado fab fa-instagram fa-2x"></i>
+                </a></li>
+
+                <li><a class="btn-floating button tooltipped mini-botones" data-position="left" data-tooltip="@_pereira_photo_shop" href="https://instagram.com/" target="_blank">
+                    <i class="centrado fab fa-instagram fa-2x"></i>
+                </a></li>
+
+                <li><a class="btn-floating button tooltipped mini-botones" data-position="left" data-tooltip="Pereira_Photo" href="https://wa.me/c/" target="_blank">
+                    <i class="centrado fab fa-whatsapp fa-2x"></i>
+                </a></li>
+
+                <li><a class="btn-floating button tooltipped mini-botones" data-position="left" data-tooltip="Pereira Photo" href="https://t.me/" target="_blank">
+                    <i class="centrado fab fa-telegram fa-2x"></i>
+                </a></li>
+            </ul>
+        </div>
+
+        <div class="modal modal-fondo" id="modal-compra">
+            <div class="modal-content">
+                <h4 class="modal-cbza titulo-parrafo">¿Cómo comprar en Pereira Photo?</h4>
+                <p class="modal-cuerpo cuerpo-parrafo">Como vías principales puedes buscar en nuestro catálogo en
+                    <a class="tooltipped mini-botones modal-link" data-position="top" data-tooltip="Pereira_Photo" href="https://wa.me/c/" target="_blank">
+                        WhatsApp <i class="fab fa-whatsapp"></i>
+                    </a>
+                    y ordenar por ahí, elegir entre nuestros productos en 
+                    <a class="tooltipped mini-botones modal-link" data-position="bottom" data-tooltip="@_pereira_photo_shop" href="https://instagram.com/" target="_blank">
+                        Instagram <i class="fab fa-instagram"></i>
+                    </a>
+                    y ordenar vía DM o consultar
+                    <a class="tooltipped mini-botones modal-link" data-position="right" data-tooltip="Inicio" href="index.html" target="_self">
+                        este sitio <i class="fa fa-map-pin"></i>
+                    </a>                    
+                    y contactarnos a través de cualquiera de las anteriores.</p>
+                <br>
+                <p class="modal-cuerpo links-redes"><i>Se debe pagar la mitad del monto del artículo por adelantado
+                    ya sea en físico o vía tarjeta.</i></p>
+            </div>
+            <div class="modal-footer modal-pie">
+                <a href="#!" class="modal-action modal-close waves-effect btn-flat cuerpo-parrafo">Entendido!</a>
+            </div>
+        </div>
+
+        <div class="row ajuste-sldr">
+            <div class="scnd-ajuste-sldr">               
+               <div class="col s12 m12 l12 prod-fondo">
+                   <ul class="collapsible expandable prod-cuerpo">
+                       <li class="active">
+                           <div class="collapsible-header prod-head">
+                           <i class="fa fa-suitcase fa-2x prod-icon"></i><h5 class="titulo-parrafo-i">&nbsp&nbspBolsos</h5>
+                           </div>
+                           <div class="collapsible-body">
+                               <div class="row">
+                                   <div class="col s12 m6 l3">
+                                        <div class="card sticky-action hoverable bckgnd-card">
+                                            <div class="card-image waves-effect waves-light waves-block">
+                                                <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                            </div>
+                                            <div class="card-content">
+                                                <p class="card-title activator prod-card-ttl titulo-cards">Bolso No.1<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                <p class="prod-card-ttl links-redes"><i>Colección Ocean</i></p>
+                                            </div>
+                                            <div class="card-action card-bajo">
+                                                <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                            </div>
+                                            <div class="card-reveal bckgnd-card">
+                                                <p class="card-title prod-card-ttl titulo-cards">Bolso No.1<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                <br>
+                                                <div class="prod-card-texto cuerpo-cards">
+                                                    <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                    por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                    y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                    inconscientes que se presenta en el arte.
+                                                    <br><br> Precio: XXX
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                   </div>
+
+                                   <div class="col s12 m6 l3">
+                                        <div class="card sticky-action hoverable bckgnd-card">
+                                        <div class="card-image waves-effect waves-light waves-block">
+                                            <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                        </div>
+                                        <div class="card-content">
+                                            <p class="card-title activator prod-card-ttl titulo-cards">Bolso No.2<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                            <p class="prod-card-ttl links-redes"><i>Colección Ocean</i></p>
+                                        </div>
+                                        <div class="card-action card-bajo">
+                                            <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                        </div>
+                                        <div class="card-reveal bckgnd-card">
+                                            <p class="card-title prod-card-ttl titulo-cards">Bolso No.2<i class="fa fa-times right prod-icon-iii"></i></p>
+                                            <br>
+                                            <div class="prod-card-texto cuerpo-cards">
+                                                <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                por simbolizar grandeza que da pavor. Es símbolo de vida y de la regeneración, 
+                                                una fuente de emociones, inspiración y pensamientos que se presenta en el arte.
+                                                <br><br> Precio: XXX
+                                                </p>
+                                            </div>
+                                        </div>
+                                        </div>
+                                   </div>
+
+                                   <div class="col s12 m6 l3">
+                                    <div class="card sticky-action hoverable bckgnd-card">
+                                        <div class="card-image waves-effect waves-light waves-block">
+                                            <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                        </div>
+                                        <div class="card-content">
+                                            <p class="card-title activator prod-card-ttl titulo-cards">Bolso No.3<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                            <p class="prod-card-ttl links-redes"><i>Colección Ocean</i></p>
+                                        </div>
+                                        <div class="card-action card-bajo">
+                                            <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                        </div>
+                                        <div class="card-reveal bckgnd-card">
+                                            <p class="card-title prod-card-ttl titulo-cards">Bolso No.3<i class="fa fa-times right prod-icon-iii"></i></p>
+                                            <br>
+                                            <div class="prod-card-texto cuerpo-cards">
+                                                <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                por simbolizar grandeza que da pavor.
+                                                <br><br> Precio: XXX
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   </div>
+
+                                   <div class="col s12 m6 l3">
+                                    <div class="card sticky-action hoverable bckgnd-card">
+                                        <div class="card-image waves-effect waves-light waves-block">
+                                            <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                        </div>
+                                        <div class="card-content">
+                                            <p class="card-title activator prod-card-ttl titulo-cards">Bolso No.4<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                            <p class="prod-card-ttl links-redes"><i>Colección Ocean</i></p>
+                                        </div>
+                                        <div class="card-action card-bajo">
+                                            <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                        </div>
+                                        <div class="card-reveal bckgnd-card">
+                                            <p class="card-title prod-card-ttl titulo-cards">Bolso No.4<i class="fa fa-times right prod-icon-iii"></i></p>
+                                            <br>
+                                            <div class="prod-card-texto cuerpo-cards">
+                                                <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                inconscientes que se presenta en el arte.
+                                                <br><br> Precio: XXX
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   </div>
+
+                                   <div class="col s12 m6 l3">
+                                    <div class="card sticky-action hoverable bckgnd-card">
+                                        <div class="card-image waves-effect waves-light waves-block">
+                                            <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                        </div>
+                                        <div class="card-content">
+                                            <p class="card-title activator prod-card-ttl titulo-cards">Bolso No.5<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                            <p class="prod-card-ttl links-redes"><i>Colección Ocean</i></p>
+                                        </div>
+                                        <div class="card-action card-bajo">
+                                            <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                        </div>
+                                        <div class="card-reveal bckgnd-card">
+                                            <p class="card-title prod-card-ttl titulo-cards">Bolso No.5<i class="fa fa-times right prod-icon-iii"></i></p>
+                                            <br>
+                                            <div class="prod-card-texto cuerpo-cards">
+                                                <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                inconscientes que se presenta en el arte.
+                                                <br><br> Precio: XXX
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   </div>
+
+                                   <div class="col s12 m6 l3">
+                                    <div class="card sticky-action hoverable bckgnd-card">
+                                        <div class="card-image waves-effect waves-light waves-block">
+                                            <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                        </div>
+                                        <div class="card-content">
+                                            <p class="card-title activator prod-card-ttl titulo-cards">Bolso No.6<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                            <p class="prod-card-ttl links-redes"><i>Colección Ocean</i></p>
+                                        </div>
+                                        <div class="card-action card-bajo">
+                                            <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                        </div>
+                                        <div class="card-reveal bckgnd-card">
+                                            <p class="card-title prod-card-ttl titulo-cards">Bolso No.6<i class="fa fa-times right prod-icon-iii"></i></p>
+                                            <br>
+                                            <div class="prod-card-texto cuerpo-cards">
+                                                <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                inconscientes que se presenta en el arte.
+                                                <br><br> Precio: XXX
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   </div>
+                               </div>                               
+                           </div>
+                       </li>
+
+                       <li>
+                        <div class="collapsible-header prod-head">
+                            <i class="fa fa-gift fa-2x prod-icon"></i><h5 class="titulo-parrafo-i">&nbsp&nbspPromociones</h5>
+                            </div>
+                            <div class="collapsible-body">
+                                <div class="row">
+                                    <div class="col s12 m6 l3">
+                                         <div class="card sticky-action hoverable bckgnd-card">
+                                             <div class="card-image waves-effect waves-light waves-block">
+                                                 <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                             </div>
+                                             <div class="card-content">
+                                                 <p class="card-title activator prod-card-ttl titulo-cards">Promoción No.1<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                 <p class="prod-card-ttl links-redes"><i>Paquete No.1</i></p>
+                                             </div>
+                                             <div class="card-action card-bajo">
+                                                 <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                             </div>
+                                             <div class="card-reveal bckgnd-card">
+                                                 <p class="card-title prod-card-ttl titulo-cards">Paquete No.1<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                 <br>
+                                                 <div class="prod-card-texto cuerpo-cards">
+                                                     <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                     por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                     y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                     inconscientes que se presenta en el arte.
+                                                     <br><br> Precio: XXX
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                    </div>
+ 
+                                    <div class="col s12 m6 l3">
+                                         <div class="card sticky-action hoverable bckgnd-card">
+                                         <div class="card-image waves-effect waves-light waves-block">
+                                             <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                         </div>
+                                         <div class="card-content">
+                                             <p class="card-title activator prod-card-ttl titulo-cards">Promoción No.1<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                             <p class="prod-card-ttl links-redes"><i>Paquete No.2</i></p>
+                                         </div>
+                                         <div class="card-action card-bajo">
+                                             <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                         </div>
+                                         <div class="card-reveal bckgnd-card">
+                                             <p class="card-title prod-card-ttl titulo-cards">Paquete No.2<i class="fa fa-times right prod-icon-iii"></i></p>
+                                             <br>
+                                             <div class="prod-card-texto cuerpo-cards">
+                                                 <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                 por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                 y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                 inconscientes que se presenta en el arte.
+                                                 <br><br> Precio: XXX
+                                                 </p>
+                                             </div>
+                                         </div>
+                                         </div>
+                                    </div>
+ 
+                                    <div class="col s12 m6 l3">
+                                     <div class="card sticky-action hoverable bckgnd-card">
+                                         <div class="card-image waves-effect waves-light waves-block">
+                                             <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                         </div>
+                                         <div class="card-content">
+                                             <p class="card-title activator prod-card-ttl titulo-cards">Promoción No.2<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                             <p class="prod-card-ttl links-redes"><i>Paquete No.1</i></p>
+                                         </div>
+                                         <div class="card-action card-bajo">
+                                             <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                         </div>
+                                         <div class="card-reveal bckgnd-card">
+                                             <p class="card-title prod-card-ttl titulo-cards">Paquete No.1<i class="fa fa-times right prod-icon-iii"></i></p>
+                                             <br>
+                                             <div class="prod-card-texto cuerpo-cards">
+                                                 <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                 por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                 y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                 inconscientes que se presenta en el arte.
+                                                 <br><br> Precio: XXX
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </div>
+                                    </div>
+ 
+                                    <div class="col s12 m6 l3">
+                                     <div class="card sticky-action hoverable bckgnd-card">
+                                         <div class="card-image waves-effect waves-light waves-block">
+                                             <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                         </div>
+                                         <div class="card-content">
+                                             <p class="card-title activator prod-card-ttl titulo-cards">Promoción No.3<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                             <p class="prod-card-ttl links-redes"><i>Paquete No.1</i></p>
+                                         </div>
+                                         <div class="card-action card-bajo">
+                                             <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                         </div>
+                                         <div class="card-reveal bckgnd-card">
+                                             <p class="card-title prod-card-ttl titulo-cards">Paquete No.1<i class="fa fa-times right prod-icon-iii"></i></p>
+                                             <br>
+                                             <div class="prod-card-texto cuerpo-cards">
+                                                 <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                 por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                 y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                 inconscientes que se presenta en el arte.
+                                                 <br><br> Precio: XXX
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </div>
+                                    </div>
+                                </div>                               
+                            </div>
+                       </li>
+
+                       <li>
+                        <div class="collapsible-header prod-head">
+                            <i class="fa fa-tshirt fa-2x prod-icon"></i><h5 class="titulo-parrafo-i">&nbspPullovers</h5>
+                            </div>
+                            <div class="collapsible-body">
+                                <div class="row">
+                                    <div class="col s12 m6 l3">
+                                         <div class="card sticky-action hoverable bckgnd-card">
+                                             <div class="card-image waves-effect waves-light waves-block">
+                                                 <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                             </div>
+                                             <div class="card-content">
+                                                 <p class="card-title activator prod-card-ttl titulo-cards">Pullover No.1<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                 <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                             </div>
+                                             <div class="card-action card-bajo">
+                                                 <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                             </div>
+                                             <div class="card-reveal bckgnd-card">
+                                                 <p class="card-title prod-card-ttl titulo-cards">Pullover No.1<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                 <br>
+                                                 <div class="prod-card-texto cuerpo-cards">
+                                                     <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                     por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                     y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                     inconscientes que se presenta en el arte.
+                                                     <br><br> Precio: XXX
+                                                     </p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                    </div>
+ 
+                                    <div class="col s12 m6 l3">
+                                         <div class="card sticky-action hoverable bckgnd-card">
+                                         <div class="card-image waves-effect waves-light waves-block">
+                                             <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                         </div>
+                                         <div class="card-content">
+                                             <p class="card-title activator prod-card-ttl titulo-cards">Pullover No.2<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                             <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                         </div>
+                                         <div class="card-action card-bajo">
+                                             <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                         </div>
+                                         <div class="card-reveal bckgnd-card">
+                                             <p class="card-title prod-card-ttl titulo-cards">Pullover No.2<i class="fa fa-times right prod-icon-iii"></i></p>
+                                             <br>
+                                             <div class="prod-card-texto cuerpo-cards">
+                                                 <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                 por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                 y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                 inconscientes que se presenta en el arte.
+                                                 <br><br> Precio: XXX
+                                                 </p>
+                                             </div>
+                                         </div>
+                                         </div>
+                                    </div>
+ 
+                                    <div class="col s12 m6 l3">
+                                     <div class="card sticky-action hoverable bckgnd-card">
+                                         <div class="card-image waves-effect waves-light waves-block">
+                                             <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                         </div>
+                                         <div class="card-content">
+                                             <p class="card-title activator prod-card-ttl titulo-cards">Pullover No.3<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                             <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                         </div>
+                                         <div class="card-action card-bajo">
+                                             <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                         </div>
+                                         <div class="card-reveal bckgnd-card">
+                                             <p class="card-title prod-card-ttl titulo-cards">Pullover No.3<i class="fa fa-times right prod-icon-iii"></i></p>
+                                             <br>
+                                             <div class="prod-card-texto cuerpo-cards">
+                                                 <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                 por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                 y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                 inconscientes que se presenta en el arte.
+                                                 <br><br> Precio: XXX
+                                                 </p>
+                                             </div>
+                                         </div>
+                                     </div>
+                                    </div>
+                                </div>                               
+                            </div>
+                       </li>
+
+                       <li>
+                            <div class="collapsible-header prod-head">
+                                &nbsp;<i class="fa fa-beer fa-2x prod-icon"></i><h5 class="titulo-parrafo-i">&nbsp&nbspItems Personalizables</h5>
+                                </div>
+                                <div class="collapsible-body">
+                                    <div class="row">
+                                        <div class="col s12 m6 l3">
+                                            <div class="card sticky-action hoverable bckgnd-card">
+                                                <div class="card-image waves-effect waves-light waves-block">
+                                                    <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                                </div>
+                                                <div class="card-content">
+                                                    <p class="card-title activator prod-card-ttl titulo-cards">Item No.1<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                    <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                                </div>
+                                                <div class="card-action card-bajo">
+                                                    <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                                </div>
+                                                <div class="card-reveal bckgnd-card">
+                                                    <p class="card-title prod-card-ttl titulo-cards">Item No.1<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                    <br>
+                                                    <div class="prod-card-texto cuerpo-cards">
+                                                        <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                        por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                        y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                        inconscientes que se presenta en el arte.
+                                                        <br><br> Precio: XXX
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col s12 m6 l3">
+                                            <div class="card sticky-action hoverable bckgnd-card">
+                                            <div class="card-image waves-effect waves-light waves-block">
+                                                <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                            </div>
+                                            <div class="card-content">
+                                                <p class="card-title activator prod-card-ttl titulo-cards">Item No.2<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                            </div>
+                                            <div class="card-action card-bajo">
+                                                <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                            </div>
+                                            <div class="card-reveal bckgnd-card">
+                                                <p class="card-title prod-card-ttl titulo-cards">Item No.2<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                <br>
+                                                <div class="prod-card-texto cuerpo-cards">
+                                                    <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                    por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                    y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                    inconscientes que se presenta en el arte.
+                                                    <br><br> Precio: XXX
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col s12 m6 l3">
+                                        <div class="card sticky-action hoverable bckgnd-card">
+                                            <div class="card-image waves-effect waves-light waves-block">
+                                                <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                            </div>
+                                            <div class="card-content">
+                                                <p class="card-title activator prod-card-ttl titulo-cards">Item No.3<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                            </div>
+                                            <div class="card-action card-bajo">
+                                                <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                            </div>
+                                            <div class="card-reveal bckgnd-card">
+                                                <p class="card-title prod-card-ttl titulo-cards">Item No.3<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                <br>
+                                                <div class="prod-card-texto cuerpo-cards">
+                                                    <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                    por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                    y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                    inconscientes que se presenta en el arte.
+                                                    <br><br> Precio: XXX
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>                               
+                                </div>
+                       </li>
+
+                       <li>
+                            <div class="collapsible-header prod-head">
+                                <i class="fa fa-book fa-2x prod-icon"></i><h5 class="titulo-parrafo-i">&nbsp&nbspItems Personalizables</h5>
+                                </div>
+                                <div class="collapsible-body">
+                                    <div class="row">
+                                        <div class="col s12 m6 l3">
+                                            <div class="card sticky-action hoverable bckgnd-card">
+                                                <div class="card-image waves-effect waves-light waves-block">
+                                                    <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                                </div>
+                                                <div class="card-content">
+                                                    <p class="card-title activator prod-card-ttl titulo-cards">Item No.1<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                    <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                                </div>
+                                                <div class="card-action card-bajo">
+                                                    <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                                </div>
+                                                <div class="card-reveal bckgnd-card">
+                                                    <p class="card-title prod-card-ttl titulo-cards">Item No.1<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                    <br>
+                                                    <div class="prod-card-texto cuerpo-cards">
+                                                        <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                        por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                        y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                        inconscientes que se presenta en el arte.
+                                                        <br><br> Precio: XXX
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col s12 m6 l3">
+                                            <div class="card sticky-action hoverable bckgnd-card">
+                                            <div class="card-image waves-effect waves-light waves-block">
+                                                <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                            </div>
+                                            <div class="card-content">
+                                                <p class="card-title activator prod-card-ttl titulo-cards">Item No.2<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                            </div>
+                                            <div class="card-action card-bajo">
+                                                <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                            </div>
+                                            <div class="card-reveal bckgnd-card">
+                                                <p class="card-title prod-card-ttl titulo-cards">Item No.2<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                <br>
+                                                <div class="prod-card-texto cuerpo-cards">
+                                                    <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                    por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                    y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                    inconscientes que se presenta en el arte.
+                                                    <br><br> Precio: XXX
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col s12 m6 l3">
+                                        <div class="card sticky-action hoverable bckgnd-card">
+                                            <div class="card-image waves-effect waves-light waves-block">
+                                                <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                            </div>
+                                            <div class="card-content">
+                                                <p class="card-title activator prod-card-ttl titulo-cards">Item No.3<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                            </div>
+                                            <div class="card-action card-bajo">
+                                                <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                            </div>
+                                            <div class="card-reveal bckgnd-card">
+                                                <p class="card-title prod-card-ttl titulo-cards">Item No.3<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                <br>
+                                                <div class="prod-card-texto cuerpo-cards">
+                                                    <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                    por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                    y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                    inconscientes que se presenta en el arte.
+                                                    <br><br> Precio: XXX
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>                               
+                                </div>
+                       </li>
+
+                       <li>
+                            <div class="collapsible-header prod-head">
+                                <i class="fa fa-paw fa-2x prod-icon"></i><h5 class="titulo-parrafo-i">&nbsp&nbspItems Personalizables</h5>
+                                </div>
+                                <div class="collapsible-body">
+                                    <div class="row">
+                                        <div class="col s12 m6 l3">
+                                            <div class="card sticky-action hoverable bckgnd-card">
+                                                <div class="card-image waves-effect waves-light waves-block">
+                                                    <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                                </div>
+                                                <div class="card-content">
+                                                    <p class="card-title activator prod-card-ttl titulo-cards">Item No.1<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                    <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                                </div>
+                                                <div class="card-action card-bajo">
+                                                    <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                                </div>
+                                                <div class="card-reveal bckgnd-card">
+                                                    <p class="card-title prod-card-ttl titulo-cards">Item No.1<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                    <br>
+                                                    <div class="prod-card-texto cuerpo-cards">
+                                                        <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                        por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                        y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                        inconscientes que se presenta en el arte.
+                                                        <br><br> Precio: XXX
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col s12 m6 l3">
+                                            <div class="card sticky-action hoverable bckgnd-card">
+                                            <div class="card-image waves-effect waves-light waves-block">
+                                                <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                            </div>
+                                            <div class="card-content">
+                                                <p class="card-title activator prod-card-ttl titulo-cards">Item No.2<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                            </div>
+                                            <div class="card-action card-bajo">
+                                                <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                            </div>
+                                            <div class="card-reveal bckgnd-card">
+                                                <p class="card-title prod-card-ttl titulo-cards">Item No.2<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                <br>
+                                                <div class="prod-card-texto cuerpo-cards">
+                                                    <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                    por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                    y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                    inconscientes que se presenta en el arte.
+                                                    <br><br> Precio: XXX
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col s12 m6 l3">
+                                        <div class="card sticky-action hoverable bckgnd-card">
+                                            <div class="card-image waves-effect waves-light waves-block">
+                                                <img src="images/foto-prod/100038700048_91615.jpg" class="activator" />
+                                            </div>
+                                            <div class="card-content">
+                                                <p class="card-title activator prod-card-ttl titulo-cards">Item No.3<i class="fa fa-ellipsis-v right prod-icon-ii"></i></p>
+                                                <p class="prod-card-ttl links-redes"><i>Colección No.X</i></p>
+                                            </div>
+                                            <div class="card-action card-bajo">
+                                                <a class="prod-card-lnk modal-trigger texto-menu" href="#modal-compra">Haz tu pedido ahora</a>
+                                            </div>
+                                            <div class="card-reveal bckgnd-card">
+                                                <p class="card-title prod-card-ttl titulo-cards">Item No.3<i class="fa fa-times right prod-icon-iii"></i></p>
+                                                <br>
+                                                <div class="prod-card-texto cuerpo-cards">
+                                                    <p>Para muchos el mar representa tranquilidad, felicidad o quietud, otros lo observan de lejos
+                                                    por simbolizar grandeza que da pavor. Es símbolo de vida, del subconsciente , de los miedos
+                                                    y de la regeneración, una fuente de emociones, inspiración y pensamientos conscientes e 
+                                                    inconscientes que se presenta en el arte.
+                                                    <br><br> Precio: XXX
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>                               
+                                </div>
+                       </li>
+                   </ul>
+               </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="page-footer footer-color">
+        <div class="footer-copyright">
+            <div class="container center show-on-medium-and-down hide-on-large-only">
+                <p class="mini-texto">
+                    <script>
+                        var fecha = new Date();
+                        document.write("©" + fecha.getFullYear());
+                    </script>                                       
+                    Todos los derechos reservados | Pereira Photo<br> Desarrollado con &nbsp<i class="fa fa-coffee"></i>&nbsp por The Shaddy Lab
+                </p>
+            </div>
+            <div class="container center hide-on-med-and-down show-on-large">
+                <p class="mini-texto">
+                    <script>
+                        var fecha = new Date();
+                        document.write("©" + fecha.getFullYear());
+                    </script>                 
+                    Todos los derechos reservados | Pereira Photo | Desarrollado con &nbsp<i class="fa fa-coffee"></i>&nbsp por The Shaddy Lab
+                </p>
+            </div>
+        </div>
+    </footer>  
+
+
+    <script type="text/javascript" src="./fontawesome/js/all.min.js"></script>     <!--fontawesome js-->
+    <script type="text/javascript" src="./js/materialize.min.js"></script>     <!--materialize js-->
+    <script> 
+        document.addEventListener ("DOMContentLoaded", function () {
+        M.AutoInit ();
+        });
+
+
+        /*document.addEventListener ("DOMContentLoaded", function () {
+            var elems = document.querySelectorAll (".slider");
+            var instances = M.Slider.init (elems, {
+                duration: 1000,
+                interval: 2060,
+                height: 562,
+                indicators: false,
+            });
+        })*/
+
+        document.addEventListener ("DOMContentLoaded", function () {
+            var elems = document.querySelectorAll (".collapsible");
+            var instances = M.Collapsible.init (elems, {
+                accordion: false,
+            });
+        })
+    </script>  
+    
+</body>
+</html>
